@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SIES 0.0.2
+</name>
+</assembly>
+<members>
+<member name="T:SIES_0._0._2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SIES_0._0._2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SIES_0._0._2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.CLIENTESSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.DETALLE_REPORTEE1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.REPORTEE1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.SERVICIOO1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.VENDEDORR1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.CLIENTESSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.DETALLE_REPORTEE1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.REPORTEE1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.SERVICIOO1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.VENDEDORR1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.CLIENTESSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.DETALLE_REPORTEE1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.REPORTEE1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.SERVICIOO1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSet.VENDEDORR1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.CLIENTESSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.DETALLE_REPORTEE1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.REPORTEE1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.SERVICIOO1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.VENDEDORR1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIES_0._0._2.FINALDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SIES_0._0._2.FINALDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SIES_0._0._2.FINALDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.UpdateAll(SIES_0._0._2.FINALDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SIES_0._0._2.FINALDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

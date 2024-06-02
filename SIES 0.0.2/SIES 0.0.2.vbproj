@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B34D610-0A09-4B58-B3E9-D82E1E208288}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIES_0._0._2.My.MyApplication</StartupObject>
+    <RootNamespace>SIES_0._0._2</RootNamespace>
+    <AssemblyName>SIES 0.0.2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIES 0.0.2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIES 0.0.2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>E:\INSTALADORES\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MENSAJES\ACTUALIZACION CORRECTA.Designer.vb">
+      <DependentUpon>ACTUALIZACION CORRECTA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\ACTUALIZACION CORRECTA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\BIENVENIDA.Designer.vb">
+      <DependentUpon>BIENVENIDA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\BIENVENIDA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\BUSCAR ID.Designer.vb">
+      <DependentUpon>BUSCAR ID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\BUSCAR ID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CARGA.Designer.vb">
+      <DependentUpon>CARGA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CARGA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\CERRAR SESION.Designer.vb">
+      <DependentUpon>CERRAR SESION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\CERRAR SESION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\CLIENTES.Designer.vb">
+      <DependentUpon>CLIENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\CLIENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\ENVIAR CORREO.Designer.vb">
+      <DependentUpon>ENVIAR CORREO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\ENVIAR CORREO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORTES\LISTADO REPORTES.Designer.vb">
+      <DependentUpon>LISTADO REPORTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTES\LISTADO REPORTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\REPORTES.Designer.vb">
+      <DependentUpon>REPORTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\REPORTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULOS\CONEXION.vb" />
+    <Compile Include="CLIENTE\CREAR.Designer.vb">
+      <DependentUpon>CREAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE\CREAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENSAJES\DATOS ELIMINADOS.Designer.vb">
+      <DependentUpon>DATOS ELIMINADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\DATOS ELIMINADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR ACTUALIZAR.Designer.vb">
+      <DependentUpon>ERROR ACTUALIZAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR ACTUALIZAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR CLIENTE.Designer.vb">
+      <DependentUpon>ERROR CLIENTE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR CLIENTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR ELIMINAR.Designer.vb">
+      <DependentUpon>ERROR ELIMINAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\ERROR ELIMINAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULOS\CONEXION2.vb" />
+    <Compile Include="INICIO DE SESION Y REGISTRO\ERROR INICIO DE SESION.Designer.vb">
+      <DependentUpon>ERROR INICIO DE SESION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\ERROR INICIO DE SESION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINALDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FINALDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\GUARDAR DATOS.Designer.vb">
+      <DependentUpon>GUARDAR DATOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJES\GUARDAR DATOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\HERRAMIENTAS.Designer.vb">
+      <DependentUpon>HERRAMIENTAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\HERRAMIENTAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INTRO.Designer.vb">
+      <DependentUpon>INTRO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INTRO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENTE\LISTADO.Designer.vb">
+      <DependentUpon>LISTADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE\LISTADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\MENU1.Designer.vb">
+      <DependentUpon>MENU1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\MENU1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULOS\ENVIAR EMAIL.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\PRINCIPAL.Designer.vb">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\RECUPERACION DE CONTRASEÑA.Designer.vb">
+      <DependentUpon>RECUPERACION DE CONTRASEÑA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\RECUPERACION DE CONTRASEÑA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\REGISTRO DE USUARIOS.Designer.vb">
+      <DependentUpon>REGISTRO DE USUARIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO DE SESION Y REGISTRO\REGISTRO DE USUARIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\SERVICIOS.Designer.vb">
+      <DependentUpon>SERVICIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU PRINCIPAL\SERVICIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MENSAJES\ACTUALIZACION CORRECTA.resx">
+      <DependentUpon>ACTUALIZACION CORRECTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\BIENVENIDA.resx">
+      <DependentUpon>BIENVENIDA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\BUSCAR ID.resx">
+      <DependentUpon>BUSCAR ID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CARGA.resx">
+      <DependentUpon>CARGA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\CERRAR SESION.resx">
+      <DependentUpon>CERRAR SESION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\CLIENTES.resx">
+      <DependentUpon>CLIENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIENTE\CREAR.resx">
+      <DependentUpon>CREAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJES\DATOS ELIMINADOS.resx">
+      <DependentUpon>DATOS ELIMINADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJES\ERROR ACTUALIZAR.resx">
+      <DependentUpon>ERROR ACTUALIZAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJES\ERROR CLIENTE.resx">
+      <DependentUpon>ERROR CLIENTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJES\ERROR ELIMINAR.resx">
+      <DependentUpon>ERROR ELIMINAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\ERROR INICIO DE SESION.resx">
+      <DependentUpon>ERROR INICIO DE SESION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJES\GUARDAR DATOS.resx">
+      <DependentUpon>GUARDAR DATOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\ENVIAR CORREO.resx">
+      <DependentUpon>ENVIAR CORREO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\HERRAMIENTAS.resx">
+      <DependentUpon>HERRAMIENTAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INTRO.resx">
+      <DependentUpon>INTRO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIENTE\LISTADO.resx">
+      <DependentUpon>LISTADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTES\LISTADO REPORTES.resx">
+      <DependentUpon>LISTADO REPORTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\MENU1.resx">
+      <DependentUpon>MENU1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\REPORTES.resx">
+      <DependentUpon>REPORTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\PRINCIPAL.resx">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\RECUPERACION DE CONTRASEÑA.resx">
+      <DependentUpon>RECUPERACION DE CONTRASEÑA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO DE SESION Y REGISTRO\REGISTRO DE USUARIOS.resx">
+      <DependentUpon>REGISTRO DE USUARIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU PRINCIPAL\SERVICIOS.resx">
+      <DependentUpon>SERVICIOS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FINALDataSet.xsc">
+      <DependentUpon>FINALDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FINALDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FINALDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FINALDataSet.xss">
+      <DependentUpon>FINALDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{a10a4355-2412-4c6c-9f1e-4bcb310b4308}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTIDAD\ENTIDAD.vbproj">
+      <Project>{9a5cf9cb-ca22-4fab-819c-37747d6cc85f}</Project>
+      <Name>ENTIDAD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
