@@ -1,0 +1,13 @@
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\DATOS.dll.config
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\DATOS.dll
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\DATOS.pdb
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\DATOS.xml
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\ENTIDAD.dll
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\ENTIDAD.pdb
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\bin\Debug\ENTIDAD.xml
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.vbprojResolveAssemblyReference.cache
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.Resources.resources
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.vbproj.GenerateResource.Cache
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.dll
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.xml
+C:\Users\luiss\Desktop\SIES BETA 1\SIES 0.0.2\SIES 0.0.2\DATOS\obj\Debug\DATOS.pdb
